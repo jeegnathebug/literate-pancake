@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Literate Pancake</string>
+    <string name="btn_payne">Payne</string>
+    <string name="btn_stables">Stables</string>
+</resources>
