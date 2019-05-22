@@ -15,13 +15,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun addButtonHandlers() {
         val mediaPlayerPayne = MediaPlayer.create(this, R.raw.payne)
+        val mediaPlayerStables = MediaPlayer.create(this, R.raw.stables)
         val btnPayne = findViewById<Button>(R.id.btn_payne)
         btnPayne.setOnClickListener {
             mediaPlayerPayne.start()
         }
         val btnStables = findViewById<Button>(R.id.btn_stables)
         btnStables.setOnClickListener {
-
+            mediaPlayerStables.start()
         }
     }
 }
